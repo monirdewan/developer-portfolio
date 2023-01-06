@@ -4,8 +4,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.container{
-    padding: 130px 150px;
+.container {
+    padding: 100px 150px 50px;
 }
 
 .nav-title {
@@ -16,7 +16,7 @@
 .btn-primary {
     background-color: #FD6E0A;
     height: 60px;
-   padding: 18px 35px;
+    padding: 18px 35px;
     border-radius: 5px;
     border: 0;
     color: #ffffff;
@@ -24,7 +24,7 @@
     font-size: 20px;
 }
 
-.section-title{
+.section-title {
     font-size: 35px;
     font-weight: 700;
     text-transform: capitalize;
@@ -32,17 +32,18 @@
 }
 
 /* Header  and navigation style*/
-.header{
+.header {
     background-color: #fff8f3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-size: 600px, 70px;
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    
-    
-    
-   
+
+
+
+
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -66,33 +67,36 @@ nav li {
 }
 
 /* banner style */
-.banner{
+.banner {
     margin: 0 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner img{
+
+.banner img {
     width: 400px;
 }
-.banner-content{
+
+.banner-content {
     width: 50%;
-   
+
 }
-.banner-title{
+
+.banner-title {
     font-size: 80px;
     font-weight: 700;
     line-height: 116px;
 }
 
-.banner-sub-title{
+.banner-sub-title {
     font-size: 45px;
     font-weight: 600;
     color: #474747;
     margin-bottom: 20px;
 }
 
-.banner-description{
+.banner-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
@@ -100,28 +104,47 @@ nav li {
 
 /* About Me */
 
-.about-me{
+.about-me, .my-service, .resume {
     width: 1140px;
-    height: 500px;
-    margin: 100px auto;
+    height: auto;
+    margin: 0 auto;
     text-align: center;
-   background-color: #FFF8F3;
-   
+    background-color: #FFF8F3;
+
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
 
-.about-me .info-title{
+.about-me .info-title {
     color: #757575;
     font-size: 20px;
     font-weight: 400;
 }
-.about-me .info-desc{
+
+.about-me .info-desc {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* my Services */
+
+.my-service .services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-service{
+    margin-top: 30px;
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.single-service h4{
+    margin: 20px auto;
 }
